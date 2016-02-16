@@ -139,6 +139,19 @@ lib64/libuniplugin.so
 lib/hw/consumerir.exynos5.so
 lib64/hw/consumerir.exynos5.so
 
+# Fingerprint
+bin/fingerprintd
+lib/libbauthserver.so
+lib64/libbauthserver.so
+lib/libbauthtzcommon.so
+lib64/libbauthtzcommon.so
+lib/libsynaFpSensorTestNwd.so
+lib64/libsynaFpSensorTestNwd.so
+lib/libegis_fp_normal_sensor_test.so
+lib64/libegis_fp_normal_sensor_test.so
+lib/hw/fingerprint.default.so
+lib64/hw/fingerprint.default.so
+
 # Graphics
 lib/hw/gralloc.exynos5.so
 lib64/hw/gralloc.exynos5.so
@@ -226,6 +239,34 @@ lib64/libsecril-client.so
 # Sensors
 lib/hw/sensors.universal7420.so
 lib64/hw/sensors.universal7420.so
+
+# Trustlet Connector (tlc)
+lib/libtlc_direct_comm.so
+lib64/libtlc_direct_comm.so
+lib/libtlc_proxy_comm.so
+lib64/libtlc_proxy_comm.so
+lib/libtlc_proxy_tui.so
+lib64/libtlc_proxy_tui.so
+lib/libtlc_spay.so
+lib64/libtlc_spay.so
+lib/libtlc_t2_ks_mi.so
+lib64/libtlc_t2_ks_mi.so
+lib/libtlc_tima_atn.so
+lib64/libtlc_tima_atn.so
+lib/libtlc_tima_pkm.so
+lib64/libtlc_tima_pkm.so
+lib/libtlc_tima_tui.so
+lib64/libtlc_tima_tui.so
+lib/libtlc_tz_ccm.so
+lib64/libtlc_tz_ccm.so
+lib/libtlc_tz_dcm.so
+lib64/libtlc_tz_dcm.so
+lib/libtlc_tz_esecomm.so
+lib64/libtlc_tz_esecomm.so
+lib/libtlc_tz_iccc.so
+lib64/libtlc_tz_iccc.so
+lib/libtlc_tz_keystore.so
+lib64/libtlc_tz_keystore.so
 
 # Widevine
 vendor/lib/drm/libdrmwvmplugin.so
