@@ -57,7 +57,7 @@ import com.android.internal.telephony.uicc.IccCardStatus;
  * Handles most GSM and CDMA cases.
  * {@hide}
  */
-public class zeroRiL extends RIL implements CommandsInterface {
+public class zeroRIL extends RIL implements CommandsInterface {
 
     private AudioManager mAudioManager;
 
@@ -67,13 +67,13 @@ public class zeroRiL extends RIL implements CommandsInterface {
     private static final int RIL_REQUEST_DIAL_EMERGENCY = 10001;
     public static final long SEND_SMS_TIMEOUT_IN_MS = 30000;
 
-    public zeroRiL(Context context, int networkModes, int cdmaSubscription) {
+    public zeroRIL(Context context, int networkModes, int cdmaSubscription) {
         this(context, networkModes, cdmaSubscription, null);
         mAudioManager = (AudioManager)mContext.getSystemService(Context.AUDIO_SERVICE);
         mQANElements = 6;
     }
 
-    public zeroRiL(Context context, int preferredNetworkType,
+    public zeroRIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
         mAudioManager = (AudioManager)mContext.getSystemService(Context.AUDIO_SERVICE);
